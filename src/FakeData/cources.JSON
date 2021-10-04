@@ -1,38 +1,38 @@
 [
   {
     "_id": "615a9004e53b8bc8d5313f6a",
-    "name": "Buck Wise",
+    "name": "Graphic Design",
     "price": "$220",
-    "img": "http://placehold.it/32x32"
+    "img": "https://images.unsplash.com/photo-1506097425191-7ad538b29cef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
   },
   {
     "_id": "615a90045b08ab55caee0932",
-    "name": "Geneva Burke",
+    "name": "Haking",
     "price": "$394",
-    "img": "http://placehold.it/32x32"
+    "img": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
   },
   {
     "_id": "615a9004ead77e4e2be1b182",
-    "name": "Amy Ballard",
+    "name": "Degital Markiting",
     "price": "$315",
-    "img": "http://placehold.it/32x32"
+    "img": "https://i0.wp.com/marketbusinessnews.com/wp-content/uploads/2018/08/Digital-Marketing.jpg?fit=708%2C624&ssl=1"
   },
   {
     "_id": "615a9004ce3f64ba4eee366d",
-    "name": "Eliza Love",
+    "name": "Web development",
     "price": "$221",
-    "img": "http://placehold.it/32x32"
+    "img": "https://www.aliceinfoweb.com/admin/images/services/web%20design.jpg"
   },
   {
     "_id": "615a900496588be08e6ced66",
-    "name": "Glover Moore",
+    "name": "Social media marketing",
     "price": "$238",
-    "img": "http://placehold.it/32x32"
+    "img": "https://dmarkc.com/wp-content/uploads/2021/04/smo-1.png"
   },
   {
     "_id": "615a9004a03468f29bc2044e",
-    "name": "England Schmidt",
+    "name": "Content Writing",
     "price": "$158",
-    "img": "http://placehold.it/32x32"
+    "img": "https://images.anytask.com/resources/user/f7d840027ff0a795/task/1599064182260_5-Best-Content-Writing-Tools-to-Write-Killer-Blog-Post-1280x720.png"
   }
 ]

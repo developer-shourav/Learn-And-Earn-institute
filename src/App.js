@@ -36,9 +36,9 @@ function App() {
             <Contact></Contact>
           </Route>
 
-          <Route exact path="/login">
+          {/* <Route exact path="/login">
             <Login></Login>
-          </Route>
+          </Route> */}
 
           <Route  path="*">
             <NotFound> </NotFound>
@@ -46,7 +46,7 @@ function App() {
             </Switch>
          </Router>
 
-         {/* <Footer></Footer> */}
+         <Footer></Footer>
     </div>
   );
 }

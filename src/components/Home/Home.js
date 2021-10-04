@@ -3,12 +3,12 @@ import HomeCard from '../HomeCard/HomeCard';
 import "./Home.css";
 
 const Home = () => {
-    const {cources, setCources} = useState([]) ;
+    const [products, setProducts]  = useState([]) ;
 
     useEffect(() => {
-        fetch('./FakeData/cources.JSON')
+        fetch('./cources.JSON')
         .then(res => res.json())
-        .then(data => setCources(data))
+            .then(data => setProducts(data))
 
 
     }, []);
@@ -28,13 +28,12 @@ const Home = () => {
 
                   <div className="card-container container">
                    <div className="row  row-cols-1 row-cols-md-3 g-4">
-                    
-                    {
-                        cources.map(cource => <HomeCard 
-                                             key={cource._id}
-                                             cource={cource} >
-                                             </HomeCard>)
-                    }
+                       {
+                        products.map(product => <HomeCard
+                                                key ={product._id}
+                                                product ={product}
+                        > </HomeCard>)
+                       }
 
                    </div>
                   </div>

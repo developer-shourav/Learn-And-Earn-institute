@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import HomeCard from '../HomeCard/HomeCard';
 import "./Home.css";
 
@@ -21,7 +22,8 @@ const Home = () => {
                 </div>
                 <div className="intro-text">
                     <h1>Learn And Earn</h1>
-                    <h2>You personal online University</h2>
+                    <h2>Like your personal online University</h2>
+                   
                 </div>
                 
             </div>

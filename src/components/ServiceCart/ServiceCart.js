@@ -5,7 +5,7 @@ const ServiceCart = (props) => {
 
     return (
         <div>
-            <div className="col h-100">
+            <div className="col h-100 card-style">
                 <div className="card h-100">
                     <img src={img} className="card-img-top" alt="" />
                     <div className="card-body">
@@ -16,6 +16,7 @@ const ServiceCart = (props) => {
                         <h6>Total Videos: {videos} </h6>
                         <h6>Already Enrolled: {enrolled} </h6>
                         <h6> Avarage Reating: {rating}</h6>
+                        <button className= "enroll-btn">Enroll Now</button>
                     </div>
                 </div>
             </div>

@@ -2,8 +2,8 @@ import React from 'react';
 
 const NotFound = () => {
     return (
-        <div>
-            <h1>404 This page is not found</h1>
+        <div className = "text-center container  py-5">
+           <img src="./404.svg" alt="Opp page not found (img)" width ="550px" />
         </div>
     );
 };

@@ -27,7 +27,6 @@ const Header = () => {
                 <NavLink className="nav-item" activeStyle={activeStyle} to="/services">Services</NavLink>
                 <NavLink className="nav-item" activeStyle={activeStyle} to="/about">About</NavLink>
                 <NavLink className="nav-item" activeStyle={activeStyle} to="/contact">Contact</NavLink>
-                {/* <NavLink className="nav-item" activeStyle={activeStyle} to="/login">Log In</NavLink> */}
                 
            </nav>
         </div>

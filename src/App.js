@@ -6,7 +6,6 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
-import Login from './components/Login/Login';
 import NotFound from './components/NotFound/NotFound';
 import Services from './components/Services/Services';
 
@@ -35,10 +34,6 @@ function App() {
           <Route exact path="/contact">
             <Contact></Contact>
           </Route>
-
-          {/* <Route exact path="/login">
-            <Login></Login>
-          </Route> */}
 
           <Route  path="*">
             <NotFound> </NotFound>

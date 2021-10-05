@@ -8,7 +8,7 @@ const Home = () => {
     useEffect(() => {
         fetch('./cources.JSON')
         .then(res => res.json())
-            .then(data => setProducts(data))
+        .then(data => setProducts(data))
 
 
     }, []);

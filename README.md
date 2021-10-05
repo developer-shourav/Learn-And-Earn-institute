@@ -1,5 +1,5 @@
 # Learn and Earn
-##Like your personal Universitey**
+## Like your personal Universitey**
 
 Visite Learn and Earn to fulfill your vision [Go learn and Earn](https://multiple-route-by-shourav.netlify.app/).
 

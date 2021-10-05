@@ -1,9 +1,45 @@
 .footer{
     margin-top: 250px;
     background-color: #101761;
-    color :#da8300 ;
-}
-.footer h5{
+    color: #fff;
     
-    color :#a36200 ;
+}
+.footer p{
+    color: #b4b4b4;
+    margin: 4px;
+}
+
+.logo{
+    color :#da8300 ;
+    font-size: 50px;
+
+}
+
+.logo-text{
+    font-weight: bold;
+}
+
+.icons{
+    display: inline-block;
+    background:#292E6D   ;
+    padding:10px 16px;
+    color:#848ACA;
+    border-radius: 8px;
+
+}
+
+.email-box{
+    margin: 5px;
+    padding: 15px 30px;
+    padding-right: 50px;
+    background: transparent;
+    border: 2px solid #b96f00;
+    border-radius: 5px;
+}
+.email-box-btn{
+    padding: 15px 25px;
+    background: #FF9900;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
 }

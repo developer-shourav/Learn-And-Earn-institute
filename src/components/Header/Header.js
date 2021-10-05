@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserGraduate } from '@fortawesome/free-solid-svg-icons'
 import { NavLink } from 'react-router-dom';
 
-
+/* ----------FonAWesome Icon ------------ */
 const element = <FontAwesomeIcon icon={faUserGraduate} /> 
 
 
@@ -23,6 +23,7 @@ const Header = () => {
            </div>
 
             <nav className="w-50 ms-5 ps-5 ">
+                {/* ------Route paths------- */}
                 <NavLink className="nav-item" activeStyle={activeStyle} to ="/home">Home</NavLink>
                 <NavLink className="nav-item" activeStyle={activeStyle} to="/services">Services</NavLink>
                 <NavLink className="nav-item" activeStyle={activeStyle} to="/about">About</NavLink>

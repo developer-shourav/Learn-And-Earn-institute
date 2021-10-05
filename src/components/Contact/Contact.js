@@ -7,11 +7,11 @@ const inbox = <FontAwesomeIcon icon={faSms} />
 const Contact = () => {
     return (
         <div className = "container d-flex  align-items-center justify-content-center mt-5 pt-5">
-
+            {/* ------Contact Img Section--------  */}
             <div className="w-100  ">
                 <img src="./contact.jpg" alt="" width ="700" />
             </div>
-
+            {/* ------information  Section made with bootStrap--------  */}
             <div className=" w-100 contact-info">
                 <div className="accordion" id="accordionPanelsStayOpenExample">
                     <div className="accordion-item">

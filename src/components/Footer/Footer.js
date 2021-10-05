@@ -3,6 +3,7 @@ import "./Footer.css" ;
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserGraduate,faCode,faSun, faMoon, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
+/*------- FontAwesome Icons ----------*/
 const logo = <FontAwesomeIcon icon={faUserGraduate} />
 const sun = <FontAwesomeIcon icon={faSun} />
 const moon = <FontAwesomeIcon icon={faMoon} />

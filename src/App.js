@@ -13,34 +13,36 @@ function App() {
   return (
     <div className = ''>
          <Router>
+           {/* -----Web header------- */}
         <Header> </Header>
             <Switch>
+          {/* -----Default Route------- */}
           <Route exact path="/">
             <Home></Home>
           </Route>
-
+          {/* -----Home route------- */}
               <Route exact path= "/home">
                 <Home></Home>
               </Route>
-
+          {/* -----Our services Route------- */}
           <Route exact path="/services">
             <Services></Services>
           </Route>
-
+          {/* -----Aboute section route------- */}
           <Route exact path="/about">
             <About></About>
           </Route>
-
+          {/* -----Contact Route------- */}
           <Route exact path="/contact">
             <Contact></Contact>
           </Route>
-
+          {/* -----Rout which is not match with path ------- */}
           <Route  path="*">
             <NotFound> </NotFound>
           </Route>
             </Switch>
          </Router>
-
+      {/* -----Web Footer------- */}
          <Footer></Footer>
     </div>
   );

@@ -6,7 +6,7 @@ const Services = () => {
     useEffect(() => {
         fetch("./services.JSON")
         .then(res => res.json())
-            .then(data => setServices(data))
+        .then(data => setServices(data))
 
     },[]);
 
@@ -18,7 +18,9 @@ const Services = () => {
                 <div className="row  row-cols-1 row-cols-md-3 g-4">
                    {
                        services.map(service => <ServiceCart 
+                        /* -----Using key for avoid error--------- */
                                             key={service._id}
+                           /* -----Sending Props fo Service Card--------- */
                                             service={service}
                                             > 
 

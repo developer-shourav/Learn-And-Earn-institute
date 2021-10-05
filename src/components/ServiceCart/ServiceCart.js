@@ -1,10 +1,12 @@
 import React from 'react';
 
 const ServiceCart = (props) => {
+    /* -----------Props distructring for Easy use--------- */
     const { name, price, img, duration, moduls, videos, enrolled, rating } = props.service;
 
     return (
         <div>
+            {/* ------------Creating Card Using BootStrap------------- */}
             <div className="col h-100 card-style">
                 <div className="card h-100">
                     <img src={img} className="card-img-top" alt="" />
